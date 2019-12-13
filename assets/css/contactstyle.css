@@ -1,0 +1,153 @@
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    padding: 30px;
+}
+
+ul {
+    margin-left: 700px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    background: white;
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: white;
+    overflow: auto;
+    margin-top: 130px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    width: 960px;
+    height: 500px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact {
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.line {
+    clear: both;
+    margin-top: 80px;
+    padding-top: 10px;
+    width: 94%;
+    height: 10px;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-top: solid 3px lightgrey;
+    color: gray;
+    vertical-align: bottom;
+}
+
+.namebox {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 94%;
+    height: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    vertical-align: bottom;
+    border: solid 1px lightgrey;
+}
+
+.email {
+    margin-top: 1px;
+    padding-top: 10px;
+    width: 94%;
+    height: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    vertical-align: bottom;
+}
+
+.emailbox {
+    margin-top: 1px;
+    padding-top: 10px;
+    width: 94%;
+    height: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    vertical-align: bottom;
+    border: solid 1px lightgrey;
+}
+
+.msg {
+    margin-top: 1px;
+    padding-top: 10px;
+    width: 94%;
+    height: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    vertical-align: bottom;
+}
+
+.msgbox {
+    margin-top: 1px;
+    padding-top: 10px;
+    width: 94%;
+    height: 200px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    vertical-align: bottom;
+    border: solid 1px lightgrey;
+}
+
+.submit {
+    clear: both;
+    background-color: #4aaaa5;
+    width: 150px;
+    height: 25px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
